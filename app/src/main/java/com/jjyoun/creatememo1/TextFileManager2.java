@@ -29,7 +29,7 @@ public class TextFileManager2 {
             fosMemo.write(strData.getBytes());
             fosMemo.close();
         }catch(Exception e){
-            e.printStackTrace();
+            e.printStackTrace(); //
         }
     }
 
